@@ -10,22 +10,29 @@ The analysis includes use of NLP and ML techniques in data cleaning and preproce
 The data contains patient reviews on specific drugs along with related conditions and a 10-star patient rating system reflecting overall patient satisfaction. The data was retrieved by crawling online pharmaceutical sites and later published in a study on sentiment analysis of drug experience over multiple facts including effectiveness and side effects of these drugs.
 
 ## Analytical Methods
-*Text Classification* to classify raw text reviews into negative or not negative reviews.
-*Topic Modeling* to discover latent semantics within the raw text reviews.
+*Text Classification* to classify raw text reviews into negative or not negative reviews
+
+*Topic Modeling* to discover latent semantics within the raw text reviews
 
 ## Evaluation Metrics
-Primary Metric - Area Under the Receiver Operating Characteristic Curve (AUC).
+Primary Metric - Area Under the Receiver Operating Characteristic Curve (AUC)
+
 Seconday Metric - Accuracy, Precision, Recall, F1-Score
 
 ## Feature Generation Methods
 Bag Of Words (BoW)
+
 Term Frequency-Inverse Document Frequency (TF-IDF)
+
 Word2Vec Embeddings
 
 ## Machine Learning Classifier Methods
 Logistic Regression
+
 Naive-Bayes
+
 Random Forest
+
 Gradient Boosting
 
 ## Project Files
